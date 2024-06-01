@@ -1,1 +1,1 @@
-# jaemujaemu
+python app.py
