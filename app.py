@@ -134,7 +134,7 @@ def calculate_ratios(filepath):
             g3 = calculate_percentage(g1, g2)
 
         # 현금비율
-        h1 = find_value_in_sheet(filepath, ["D210000"], ["        현금및현금성자산"])
+        h1 = find_value_in_sheet(filepath, ["D210000"], ["        현금및현금성자산", "        현금 및 현금성자산"])
         h2 = find_value_in_sheet(filepath, ["D210000"], ["    유동부채"])
         if h1 is None or h2 is None:
             h3 = 100
